@@ -1,0 +1,111 @@
+/* This is a CSS comment */
+body {
+	background-color: rgb(27, 27, 27);
+	padding: 2% 1%;
+	font-family: Helvetica;
+	max-width: 90%;
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 150%;
+}                 /* sets the left and right margins to equal values. This centers the body on the page.*/
+
+h1 {
+	text-align: center;
+	color: rgb(174, 127, 26);
+}
+
+h2 {
+	margin: 10px;
+}
+
+a {
+	color: rgb(174, 127, 26);
+}
+
+p {
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: none; /* this removes the bullets that show up by default in unordered lists */
+}
+
+ul li {
+	
+	font-size: 20px;
+	line-height: 44px;  /*each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers)*/ 
+}
+
+ol {
+	display: block;
+	margin-left: 30%;
+	margin-right: auto;
+	list-style-position:inside
+}
+
+img {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	color:white;
+}
+
+.part {
+	background-color: black;
+	border-radius: 20px;
+	color: rgb(174, 127, 26);
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.section {
+	background-color: rgb(27, 27, 27);
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.section-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: #E0EAF2;
+}
+
+.section-description {
+	color: #E0EAF2;
+	font-weight: lighter;
+	margin: 6px;
+}
+/*Styling for the image captions*/
+.caption{
+	font-style: italic;
+	font-size: 0.75em;
+	text-align: center;
+}
+/*Stile for the content table*/
+.TOC {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+/*Style for some of the ordered lists*/
+.bullets{
+	list-style-type: circle;
+}
+
+/*Styling for highliting important parts in text*/
+.highlight{
+	color: yellow;
+}
